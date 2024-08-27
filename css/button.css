@@ -1,0 +1,25 @@
+button {
+    background-color: #3498db;  /* Màu nền */
+    border: none;               /* Bỏ đường viền */
+    color: white;               /* Màu chữ */
+    padding: 12px 24px;         /* Khoảng cách trong */
+    text-align: center;         /* Canh giữa chữ */
+    text-decoration: none;      /* Bỏ gạch chân */
+    display: inline-block;      /* Hiển thị inline-block */
+    font-size: 16px;            /* Cỡ chữ */
+    font-weight: bold;          /* Đậm chữ */
+    border-radius: 8px;         /* Bo góc */
+    transition: background-color 0.3s, transform 0.2s; /* Hiệu ứng chuyển đổi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+  }
+  
+  button:hover {
+    background-color: #2980b9;  /* Đổi màu nền khi hover */
+    transform: translateY(-2px); /* Nút nhảy lên khi hover */
+  }
+  
+  button:active {
+    background-color: #1c598a;  /* Màu nền khi bấm giữ */
+    transform: translateY(0);   /* Giữ nguyên vị trí khi bấm giữ */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Giảm độ cao đổ bóng khi bấm giữ */
+  }
