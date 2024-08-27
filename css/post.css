@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #3498db;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /* Một cột cho màn hình nhỏ */
+    grid-template-rows: auto; /* Tự động cho chiều cao */
+    gap: 20px; /* Khoảng cách giữa các ô */
+    max-width: 800px; /* Chiều rộng tối đa */
+    margin: 20px auto; /* Giữa trang */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bóng đổ */
+}
+
+/* Header */
+.header {
+    grid-column: 1; /* Chiếm toàn bộ cột */
+    text-align: center;
+}
+
+/* Author Info */
+.author-info {
+    grid-column: 1; /* Chiếm toàn bộ cột */
+    display: grid;
+    grid-template-columns: 100px 1fr; /* Cột cho avatar và thông tin */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 15px; /* Khoảng cách giữa avatar và thông tin */
+}
+
+/* Avatar */
+.avatar {
+    width: 100%; /* Kích thước avatar */
+    height: auto; /* Giữ tỷ lệ cho avatar */
+    border-radius: 50%; /* Bo tròn */
+    object-fit: cover; /* Giữ tỷ lệ ảnh */
+}
+
+/* Author Details */
+.author-details {
+    display: grid;
+    grid-template-columns: 1fr; /* Một cột cho thông tin tác giả */
+    gap: 5px; /* Khoảng cách giữa các dòng */
+}
+
+/* Social Sharing */
+.social-sharing {
+    grid-column: 1; /* Chiếm toàn bộ cột */
+    display: flex;
+    justify-content: center; /* Căn giữa */
+    gap: 15px; /* Khoảng cách giữa các biểu tượng */
+}
+
+/* Link Style */
+a {
+    text-decoration: none; /* Không có gạch chân */
+    color: #3498db; /* Màu liên kết */
+    font-weight: bold; /* Đậm */
+}

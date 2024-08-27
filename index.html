@@ -1,33 +1,58 @@
-<hhtm>
-    <head>
-        <link rel="stylesheet" href="css/button.css">
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <div id="div-overall">
-            <div id="div-header" class="box-content">My Blogs</div>
-            <div id="div-container" class="box-content">
-                <div id="div-left">
-                    <a class="left-item" href="html/design.html">Design System</a>
-                    <a class="left-item" href="#">Link One</a>
-                    <a class="left-item" href="#">Link Two</a>
-                    <a class="left-item" href="#">Link Four</a>
-                    <button class="left-item">Follow</button>
-                    <button class="left-item">Subcribe</button>
-                </div>
-                <div id="div-content">
-                    <div id="div-title">Many great events on this summer, you can click to more detail</div>
-                    <div id="div-posts">
-                        <a class="post" href="post.html">Post 1</a>
-                        <a class="post">Post 2</a>
-                        <a class="post">Post 3</a>
-                        <a class="post">Post 4</a>
-                        <a class="post">Post 5</a>
-                        <a class="post">Post 6</a>
-                    </div>
-                </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Homepage</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Blog Post Cards -->
+    <div class="blog-posts">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="assets/post1.jpg" alt="Post Image">
+            <div class="card-body">
+                <h2 class="card-title">Blog Post 1</h2>
+                <p class="card-text">This is a short description of the first blog post.</p>
+                <a class="button" href="html/post.html">Read More</a>
             </div>
-            <div id="div-footer" class="box-content">Coppy Right @ 2024</div>
         </div>
-    </body>
-</hhtm>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="assets/post2.jpg" alt="Post Image">
+            <div class="card-body">
+                <h2 class="card-title">Blog Post 2</h2>
+                <p class="card-text">This is a short description of the second blog post.</p>
+                <a class="button">Read More</a>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="assets/post3.jpg" alt="Post Image">
+            <div class="card-body">
+                <h2 class="card-title">Blog Post 3</h2>
+                <p class="card-text">This is a short description of the third blog post.</p>
+                <a class="button">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2024 My Blog. All rights reserved.
+    </div>
+
+</body>
+</html>
